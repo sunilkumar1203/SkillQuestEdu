@@ -1,0 +1,149 @@
+/* Home button styling (adjust as needed) */
+
+body{
+    background-image: url("images/BG.jpg");
+    background-size: cover; background-position: center;
+}
+.container1 a.home-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  /* Letter grid styling */
+  .letter-grid {
+    text-align: center;
+    margin-top: 50px;
+    width: 70%;
+    padding: 80px 0 0 175px;
+  }
+  
+  .letter-button {
+    width: 60px;
+    height: 100px;
+    margin: 10px;
+    background-color: transparent; /* Make background transparent to show image */
+    border: none; /* Remove default border */
+    cursor: pointer; /* Indicate clickable behavior */
+  }
+  
+  .letter-button img {
+    width: 100%; /* Stretch image to fill the button space */
+    height: 100%;
+  }
+  
+  .hint-container {
+    text-align: center;
+  }
+  
+  .hint-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ddd;
+    cursor: pointer;
+  }
+  
+  .hint-gif-container {
+    margin-top: 10px; /* Add some margin above the hint container */
+    max-width: 200px; /* Set a maximum width for the hint GIF */
+  }
+  
+  .hint-gif-container img { /* Style the hint GIF */
+    width: 100%; /* Make the GIF fill the container width */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  /* SPeech */
+
+.container {
+    padding-top: 5%;
+    width: 100%;
+  }
+  .container .heading {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .container .options select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--light-text-color);
+    border-radius: 5px;
+    outline: none;
+  }
+  .container .options div:not(:last-child) select {
+    margin-bottom: 20px;
+  }
+  
+  .container .options p {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: var(--light-text-color);
+  }
+  .container .line {
+    position: relative;
+    width: 100%;
+    height: 1px;
+    background-color: var(--light-text-color);
+    opacity: 0.5;
+    margin: 30px 0;
+  }
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    height: 60px;
+    padding: 20px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #fff;
+    background-color: #135D66;
+  }
+  .btn ion-icon {
+    font-size: 30px;
+  }
+  .btn:disabled {
+    background-color: var(--light-text-color);
+    cursor: not-allowed;
+  }
+  .container .record img {
+    width: 30px;
+    height: 30px;
+    display: none;
+  }
+  .container .record.recording img {
+    display: block;
+  }
+  .container .record.recording ion-icon {
+    display: none;
+  }
+  .container .result {
+    width: 100%;
+    min-height: 200px;
+    padding: 10px;
+    border: 1px solid var(--light-text-color);
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: var(--text-color);
+  }
+  .container .result p {
+    display: inline;
+    margin-left: 3px;
+    color: var(--light-text-color);
+  }
+  .buttons {
+    display: flex;
+    gap: 20px;
+  }
+  

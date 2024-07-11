@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Game Name</title>
+  <style>
+    body {
+        display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center;
+  justify-content: center;
+      background-image: url("images/BG.jpg");
+      background-size: cover; background-position: center;
+    }
+
+    .header {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .game-logo {
+      width: 500x;
+      height: 500px; /* Adjust height as needed */
+    }
+
+    .buttons {
+        display: flex;
+      justify-content: space-around;
+      width: 70%; /* Increase width for wider buttons */
+      margin: 0 auto;
+      padding: 20px 0;
+    }
+
+    .button {
+      padding: 20px 30px; /* Increase padding for bigger buttons */
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 18px; /* Increase font size for better visibility */
+      text-decoration: none; /* Remove underline */
+      color: white;
+      background-color: #135D66 /* Set background color to white */
+    }
+
+    .button:hover {
+      background-color: #eee;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <img src="images\SKILLQUEST_Logo.png" alt="Game Logo" class="game-logo">
+  </header>
+
+  <div class="buttons">
+    <a href="learn.html" class="button">Learn Letters</a>
+    <a href="index.html" class="button">Start Game (Letter)</a>
+    <a href="index2.html" class="button">Start Game (Word)</a>
+  </div>
+</body>
+</html>
